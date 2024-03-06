@@ -1,5 +1,5 @@
 import Card from "./card";
-import NavigationCard from "./navigationcard";
+import NavigationCard from "./Navigationcard";
 
 export default function Layout({ children, hideNavigation }) {
   return (

@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-export default function navigationcard({ children }) {
+export default function NavigationCard({ children }) {
   const activeElements =
     "flex md:gap-3 gap-1 py-2 bg-SocialBlue text-white md:-mx-4 md:px-4 px-2 mx-2 text-sm md:text-md rounded-md shadow-md shadow-gray-400";
   const inactiveElements =

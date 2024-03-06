@@ -1,5 +1,5 @@
 import Layout from "../components/layout";
-import PostCard from "../components/postcard";
+import PostCard from "../components/Postcard";
 
 export default function SavedPosts(){
     return(

@@ -2,7 +2,7 @@
 import Card from "../components/card";
 import Layout from "../components/layout";
 import Avatar from "../components/avatar";
-import Postcard from "../components/postcard";
+import Postcard from "../components/Postcard";
 import FriendInfo from "../components/friendinfo";
 import { useRouter } from "next/router";
 import { usePathname } from "next/navigation";

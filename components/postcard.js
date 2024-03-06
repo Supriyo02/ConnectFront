@@ -5,7 +5,7 @@ import ClickOutHandler from "react-clickout-handler";
 import React, { useState } from "react";
 import Link from "next/link";
 
-const postcard = () => {
+const Postcard = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const inactiveElements =
     "flex gap-2 p-2 hover:bg-blue-300 hover:bg-opacity-40 rounded-md hover:-mx-2 transition-all hover:shadow-sm hover:shadow-gray-400 hover:text-base";
@@ -247,4 +247,4 @@ const postcard = () => {
   );
 };
 
-export default postcard;
+export default Postcard;
