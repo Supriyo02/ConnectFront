@@ -1,2 +1,2 @@
 # ConnectFront
-For frontend hosting try
+For trying Frontend Hosting
