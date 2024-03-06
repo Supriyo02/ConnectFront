@@ -7,7 +7,7 @@ export default function Avatar({size}) {
   }
   return (
       <div className="p-2">
-          <Image className={`${width} rounded-full overflow-hidden`} src="/profile.jpg" alt="" />
+          <img className={`${width} rounded-full overflow-hidden`} src="/profile.jpg" alt="" />
       </div>
   )
 };

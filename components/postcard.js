@@ -153,7 +153,7 @@ const Postcard = () => {
         </p>
       </div>
       <div className="px-5 py-2">
-        <Image
+        <img
           className="rounded-md overflow-hidden"
           src="https://images.unsplash.com/photo-1561909381-3d716364ad47?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2063&q=80"
           alt=""
