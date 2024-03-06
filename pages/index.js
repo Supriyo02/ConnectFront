@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Layout from "../components/layout";
 import PostFormCard from "../components/postFormCard";
-import PostCard from "../components/Postcard";
+import PostCard from "../components/postcard";
 
 export default function Home() {
   return (

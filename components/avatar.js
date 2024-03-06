@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Avatar({size}) {
   let width='w-11';
   if(size==='lg'){
@@ -5,7 +7,7 @@ export default function Avatar({size}) {
   }
   return (
       <div className="p-2">
-          <img className={`${width} rounded-full overflow-hidden`} src="/profile.jpg" alt="" />
+          <Image className={`${width} rounded-full overflow-hidden`} src="/profile.jpg" alt="" />
       </div>
   )
 };
